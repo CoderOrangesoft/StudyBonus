@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机问题</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>随机问题</h1>
+        <button id="randomQuestion">获取随机问题(全册)</button>
+        <button id="randomQuestionByUnit">获取随机问题(根据单元)</button>
+        <label>
+            <select id="unitSelect">
+                <option value="0">请选择单元</option>
+            </select>
+            <input type="checkbox" id="hideSource" onclick="changeSourceDisplayMode()"> 隐藏问题来源
+        </label>
+
+        <div id="questionResult">
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
